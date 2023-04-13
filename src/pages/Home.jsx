@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import LinkBlock from '../components/LinkBlock';
+import LinkListBlock from '../components/LinkListBlock';
+import Banner from '../components/Banner';
+import datas from '../json/mainBlockData.json'
 function Home() {
     const [count, setCount] = useState(0)
     return (
@@ -8,23 +11,23 @@ function Home() {
                 <img src="react.svg" className="logo react" alt="React logo" />
             </a>
 
-            <div style={{width:"100%",height:"100px",backgroundColor:"#fff"}}></div>
-
+            <Banner line1="HI! I'm Joshua." line2="Here is my links" />
+            <div>
+                {datas.map(Data => (<LinkListBlock key={Data.id} Data={Data} />
+                ))}
+            </div>
             <h3>{count}</h3>
 
-            <div>
-                <button onClick={() => setCount((count) => count - 1)}>
-                    PREV
-                </button>
-            </div>
+            <button onClick={() => setCount((count) => count - 1)}>
+                PREV
+            </button>
 
             <LinkBlock id={count} />
 
-            <div>
-                <button onClick={() => setCount((count) => count + 1)}>
-                    NEXT
-                </button>
-            </div>
+            <button onClick={() => setCount((count) => count + 1)}>
+                NEXT
+            </button>
+
         </div>
     );
 }

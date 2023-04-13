@@ -1,26 +1,26 @@
 [
     {
         "id":"1",
-        "url":"",
+        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
         "src":"/images/testImg.png",
-        "imageTitle":"PLACE 1"
+        "Text":"PLACE 1"
     },
     {
         "id":"2",
-        "url":"",
+        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
         "src":"/images/testImg.png",
-        "imageTitle":"PLACE 2"
+        "Text":"PLACE 2"
     },
     {
         "id":"3",
-        "url":"",
+        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
         "src":"/images/testImg.png",
-        "imageTitle":"PLACE 3"
+        "Text":"PLACE 3"
     },
     {
         "id":"4",
-        "url":"",
+        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
         "src":"/images/testImg.png",
-        "imageTitle":"PLACE 4"
+        "Text":"PLACE 4"
     }
 ]
