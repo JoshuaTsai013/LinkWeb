@@ -1,0 +1,26 @@
+[
+    {
+        "id":"1",
+        "url":"",
+        "src":"/images/testImg.png",
+        "imageTitle":"PLACE 1"
+    },
+    {
+        "id":"2",
+        "url":"",
+        "src":"/images/testImg.png",
+        "imageTitle":"PLACE 2"
+    },
+    {
+        "id":"3",
+        "url":"",
+        "src":"/images/testImg.png",
+        "imageTitle":"PLACE 3"
+    },
+    {
+        "id":"4",
+        "url":"",
+        "src":"/images/testImg.png",
+        "imageTitle":"PLACE 4"
+    }
+]
