@@ -1,12 +1,14 @@
 import styles from './LinkListBlock.module.css'
 
-function LinkListBlock({Data}) {
+function LinkListBlock({ Data }) {
     return (
         <div className={styles.mainBlock}>
-        <a href={Data.url} target="_blank" style={{ textDecoration: "none" }}>
-            {Data.Text}
-        </a>
-    </div>
+
+        <img src={Data.src} alt="linkpic" className={styles.photo}/>
+            <a href={Data.url} target="_blank" style={{ textDecoration: "none"}}>
+                {Data.Text}
+            </a>
+        </div>
     );
 }
 export default LinkListBlock;

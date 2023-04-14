@@ -24,5 +24,6 @@
     .mainBlock {
         width: 600px;
         min-height: 64px;
+        font-size: 1.4rem;
     }
 }

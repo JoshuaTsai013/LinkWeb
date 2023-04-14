@@ -6,25 +6,40 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     color: rgba(0, 0, 0, 0.8);
 
+    display: flex;
     /* font-family: Calibri, sans-serif; */
     /* font-family: 'Silkscreen', cursive; */
     font-size: 1rem;
     font-weight: 700;
+
+    /* position: inherit; */
+    margin: 30px 0;
     text-align: center;
-
-    margin: 5px 0;
-
-    padding: 0.5em 1em;
+    padding: 8px 12px;
     overflow-wrap: break-word;
     width: 300px;
-    min-height: 40px;
-    height: max-content;
+    height: 80px;
+
     /* animation: 0.5s fadein; */
 }
+
+.photo {
+    height: 64px;
+    aspect-ratio: 1;
+    /* position: relative;
+    left: 0;
+    top: 0;
+    translate: (-50%, -50%); */
+}
+
+
+
+
 
 @media (min-width: 768px) {
     .mainBlock {
         width: 600px;
-        min-height: 64px;
+        font-size: 1.4rem;
+        /* min-height: 64px; */
     }
 }
