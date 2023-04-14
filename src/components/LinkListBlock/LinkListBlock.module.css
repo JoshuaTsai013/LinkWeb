@@ -1,45 +1,46 @@
 .mainBlock {
+    display: flex;
+    width: 300px;
+    height: 80px;
+    margin: 30px 0;
+    padding: 8px 12px;
     background: #fff;
     border-radius: 4px;
     border: none;
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     color: rgba(0, 0, 0, 0.8);
-
-    display: flex;
-    /* font-family: Calibri, sans-serif; */
-    /* font-family: 'Silkscreen', cursive; */
-    font-size: 1rem;
-    font-weight: 700;
-
-    /* position: inherit; */
-    margin: 30px 0;
-    text-align: center;
-    padding: 8px 12px;
-    overflow-wrap: break-word;
-    width: 300px;
-    height: 80px;
-
-    /* animation: 0.5s fadein; */
 }
 
 .photo {
     height: 64px;
     aspect-ratio: 1;
-    /* position: relative;
-    left: 0;
-    top: 0;
-    translate: (-50%, -50%); */
 }
 
-
-
-
+.text {
+    height: max-content;
+    max-height: 64px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    overflow-wrap: break-word;
+}
 
 @media (min-width: 768px) {
     .mainBlock {
         width: 600px;
+        height: 120px;
+    }
+
+    .photo {
+        height: 104px;
+    }
+
+    .text {
         font-size: 1.4rem;
-        /* min-height: 64px; */
     }
 }

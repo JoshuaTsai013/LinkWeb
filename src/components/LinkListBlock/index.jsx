@@ -4,8 +4,8 @@ function LinkListBlock({ Data }) {
     return (
         <div className={styles.mainBlock}>
 
-        <img src={Data.src} alt="linkpic" className={styles.photo}/>
-            <a href={Data.url} target="_blank" style={{ textDecoration: "none"}}>
+            <img src={Data.src} alt="linkpic" className={styles.photo}/>
+            <a href={Data.url} target="_blank" className={styles.text}>
                 {Data.Text}
             </a>
         </div>
