@@ -4,14 +4,14 @@ function LinkBtn() {
 
     return (
         <div className={styles.mainBlock}>
-            <a href="#" target="" style={{ width: "40px", height: "40px" }}>
-                <img src="react.svg" alt="React logo" style={{ width: "40px", height: "40px" }} />
+            <a href="#" target="" className={styles.Icon}>
+                <img src="react.svg" alt="React logo" />
             </a>
-            <a href="#" target="" style={{ width: "40px", height: "40px" }}>
-                <img src="react.svg" alt="React logo" style={{ width: "40px", height: "40px" }} />
+            <a href="#" target="" className={styles.Icon}>
+                <img src="react.svg" alt="React logo" />
             </a>
-            <a href="#" target="" style={{ width: "40px", height: "40px" }}>
-                <img src="react.svg" alt="React logo" style={{ width: "40px", height: "40px" }} />
+            <a href="#" target="" className={styles.Icon}>
+                <img src="react.svg" alt="React logo" />
             </a>
         </div>
     );

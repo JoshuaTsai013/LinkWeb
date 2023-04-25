@@ -16,17 +16,5 @@
         "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
         "src":"/images/testImg.png",
         "Text":"LINK 3"
-    },
-    {
-        "id":"4",
-        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
-        "src":"/images/testImg.png",
-        "Text":"LINK 4"
-    },
-    {
-        "id":"5",
-        "url":"https://www.youtube.com/watch?v=s0gWVK22Tv4",
-        "src":"/images/testImg.png",
-        "Text":"LINK 5"
     }
 ]
